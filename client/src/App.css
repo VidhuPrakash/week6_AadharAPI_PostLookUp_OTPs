@@ -1,0 +1,91 @@
+.App {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+body{
+  background-color: rgb(231, 122, 122);
+}
+input{
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: antiquewhite;
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: rgb(127, 125, 125);
+}
+
+.phoneDiv{
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 25px;
+  width: fit-content;
+  height: fit-content;
+}
+.aadharDiv{
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 25px;
+  width: fit-content;
+  height: fit-content;
+}
+.emailDiv{
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 25px;
+  width: fit-content;
+  height: fit-content;
+}
+.name{
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 25px;
+  width: fit-content;
+  height: fit-content;
+}
+button{
+  background-color: rgb(189, 198, 198);
+  border: none;
+  margin: 10px;
+  border-radius: 25px;
+  width: 250px;
+  height: 50px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  font-size: medium;
+}
+button:active{
+  background-color: rgb(114, 117, 117);
+}
